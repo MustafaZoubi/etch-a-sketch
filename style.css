@@ -1,0 +1,120 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    min-height: 100vh;
+    min-width: 100vh;
+    flex-direction: column;
+    background-color: #070b12;
+}
+
+.body {
+    min-height: 100vh;
+    min-width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    background-color: #0B0F1A;
+    color: #EAF2FF;
+    width: 100%;
+    padding: 10px 40px;
+    font-size: 35px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    text-shadow: 0 0 13px #67A0C1;
+    outline: 1px solid rgba(255, 255, 255, 0.2);
+    display: flex;
+    height: 90px;
+    align-items: center;
+
+}
+
+.logo {
+    width: 90px;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    height: 700px;
+    width: 700px;
+    flex-wrap: wrap;
+    flex: 0 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contool {
+    height: 830px;
+    width: 760px;
+    border: 30px solid #0B0F1A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 13px 2px #67A0C1;
+
+    background-color: #0B0F1A;
+
+}
+
+.container>div {
+    background-color: white;
+    border: 0.001px solid black;
+}
+
+.color-tool {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    width: 760px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 19px;
+    height: 90;
+}
+
+.color-tool span {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.canvas {
+    display: flex;
+    gap: 30px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.menu div {
+    background-color: #0B0F1A;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 1px #67A0C1;
+    padding: 10px;
+}
+
+.menu div:hover {
+    cursor: pointer;
+}
+
+.menu img {
+    height: auto;
+    width: 30px;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Momo+Trust+Display&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="header">
+        <img class="logo" src="./Images/logo.png" alt="website logo">
+
+        Etch-a-Sketch
+    </div>
+    <div class="body">
+        <div class="canvas">
+            <div class="menu">
+                <div class="pen" draggable="false"><img draggable="false" src="./Images/pen.png" alt="pen"></div>
+                <div class="eraser" draggable="false"><img draggable="false" src="./Images/eraser.png" alt="eraser">
+                </div>
+                <div class="fill" draggable="false"><img draggable="false" src="./Images/bucket.png" alt="bucket"></div>
+                <div class="rainbow" draggable="false"><img draggable="false" src="./Images/rainbow.png" alt="rainbow">
+                </div>
+                <div class="darken" draggable="false"><img draggable="false" src="./Images/darken.png" alt="darken">
+                </div>
+                <div class="delete" draggable="false"><img draggable="false" src="./Images/delete.png" alt="delete">
+                </div>
+            </div>
+            <div class="contool">
+                <div class="container"></div>
+                <div class="color-tool">
+                    <span>
+                        <label for="pen-colorpicker">Pen Color: </label>
+                        <input draggable="false" type="color" value="#67A0C1" id="pen-colorpicker">
+                    </span>
+                    <span>
+                        <label for="back-colorpicker">Backgrousnd Color: </label>
+                        <input draggable="false" type="color" value="#ffffff" id="back-colorpicker">
+                    </span>
+                    <span>
+                        <label for="slider">Grid Size</label>
+                        <input draggable="false" type="range" id="slider" min="1" max="60" value="16" step="1">
+                    </span>
+
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
